@@ -15,15 +15,60 @@
       crossorigin="anonymous"
     ></script>
     <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
       p {
         font-size: 1.4rem;
+      }
+      h1 {
+        margin-top: 5%;
+        margin-bottom: 5%;
       }
     </style>
     <title>Homepage Git Project</title>
   </head>
   <body>
+    <!-- main container -->
     <div class="container">
-      <h1>The Office Hub</h1>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <!-- nav bar -->
+          <a class="navbar-brand" href="index.html">The Office Hub</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="characters.html"
+                  >Characters</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="seasons.html">Seasons</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="reboot.html">Reboot</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="bloopers.html">Bloopers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
       <div id="carouselJohn" class="carousel slide carousel-fade">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -67,7 +112,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <h2>The Office (American TV series)</h2>
+      <h1>The Office (American TV series)</h1>
       <p>
         The Office is an American mockumentary sitcom television series that
         depicts the everyday work lives of office employees at the Scranton,
