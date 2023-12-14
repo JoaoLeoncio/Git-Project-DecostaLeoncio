@@ -16,5 +16,46 @@
     ></script>
     <title>Contact</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="mb-3">
+        <label for="customRange2" class="form-label">Rate our content</label>
+        <input
+          type="range"
+          class="form-range"
+          min="1"
+          max="10"
+          id="customRange2"
+          required
+        />
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"
+          >Email address</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="name@example.com"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Feedback:</label
+        >
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+          required
+        ></textarea>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Submit feedback</button>
+      </div>
+    </div>
+  </body>
 </html>
